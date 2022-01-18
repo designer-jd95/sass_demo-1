@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Write Review</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</head>
+
+<body>
+	<header class="site-header">
+		<div class="header-inner d-flex">
+			<div class="site-logo col-6 col-lg-4 col-md-4 px-0">
+				<a href="#"><img src="images/logo.png"></a>
+			</div>
+			<div class="header-search col-12 col-lg-4 col-md-4 px-0">
+				<div class="h-src-inr">
+					<input type="text" name="" placeholder="Where are you going?">
+					<button class="btn src-submit"><img src="images/search-icon.png"></button>
+				</div>
+			</div>
+			<div class="header-right col-6 col-lg-4 col-md-4 px-0">
+				<div class="nav-toggle-cover">
+					<div class="nav-toggle">
+						<div class="toggle">
+							<div class="one"></div>
+							<div class="two"></div>
+							<div class="three"></div>
+						</div>
+						<div class="nav-menu">
+							<ul class="menu">
+	                    		<li><a href="#">Home</a></li>
+	                    		<li><a href="#">Top Rated</a></li>
+	                    		<li><a href="#">Latest Reviews </a></li>
+	                    	</ul>
+						</div>
+					</div>
+					<div class="h-profile"><img src="images/user-profile.svg"></div>
+				</div>
+				<div class="modal fade login-register" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<h2 class="section-heading">Register</h2>
+							<div class="reg-form-cover">
+								<div class="field-cover">
+									<div class="field-label">First Name:</div>
+									<input class="field-border" type="text" name="" placeholder="Enter your First Name"> </div>
+								<div class="field-cover">
+									<div class="field-label">Last Name:</div>
+									<input class="field-border" type="text" name="" placeholder="Enter your Last Name"> </div>
+								<div class="field-cover">
+									<div class="field-label">Email Address:</div>
+									<input class="field-border" type="text" name="" placeholder="Enter your Email Address"> </div>
+								<div class="field-cover">
+									<div class="field-label">Password:</div>
+									<input class="field-border" type="password" name="" placeholder="Enter your Password"> </div>
+								<div class="reg-check-box">
+									<input id="check" type="checkbox" name="">
+									<label for="check">Yes, I want to join your mail list for future offers, surveys and more.</label>
+								</div>
+							</div>
+							<div class="reg-pop-footer">
+								<div class="ac-cta-link"><a href="#">Already have an account?</a></div>
+								<div class="submit-form"><a class="submit-btn" href="#">Register</a></div>
+							</div>
+							<div class="close-popup" data-dismiss="modal"><img src="images/close-popup.svg"></div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="modal fade login-register" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+				    <div class="modal-content">
+				      	<h2 class="section-heading">Login</h2>
+				      	<div class="reg-form-cover">
+							<div class="field-cover">
+								<div class="field-label">Email Address:</div>
+								<input class="field-border" type="text" name="" placeholder="Enter your Email Address">
+							</div>
+							<div class="field-cover">
+								<div class="field-label">Password:</div>
+								<input class="field-border" type="password" name="" placeholder="Enter your Password">
+							</div>
+							<div class="reg-check-box">
+								<input id="check" type="checkbox" name="">
+								<label for="check">Remember me</label>
+								<a class="forgot-pass" href="#">Forgot Password?</a>
+							</div>
+				      	</div>
+				      	<div class="reg-pop-footer">
+				      		<div class="ac-cta-link"><a href="#">Don't have an account? Sign Up</a></div>
+				      		<div class="submit-form"><a class="submit-btn" href="#">Login</a></div>
+				      	</div>
+				      	<div class="close-popup" data-dismiss="modal"><img src="images/close-popup.svg"></div>
+				    </div>
+				  </div>
+				</div> --></div>
+		</div>
+	</header>
+	<div class="write-review">
+		<div class="container d-flex">
+			<div class="container-left">
+				<div class="profile-left"><img src="images/user-pofile-img.png"></div>
+			</div>
+			<div class="container-right">
+				<div class="review-options">
+					<ul>
+						<li><a href="#"><span class="material-icons">create</span> Edit Profile</a></li>
+						<li><a href="#"><span class="material-icons">star_border</span> Favorites</a></li>
+						<li><a href="#"><span class="material-icons">history</span> My Reviews</a></li>
+						<li><a href="#"><span class="material-icons">create</span> Write Review</a></li>
+						<li><a href="#"><span class="material-icons">logout</span> Logout</a></li>
+					</ul>
+				</div>
+				<div class="write-review-form">
+					<div class="page-heading">
+						<h1 class="beach-name">Beach name here</h1> <span>Location, Country</span> </div>
+					<div class="field-cover star-rating">
+						<div class="field-label"><span class="count">1.</span>Your rating of this beach:</div>
+						<div class="field-border"> <span class="material-icons fill">star</span> <span class="material-icons fill">star</span> <span class="material-icons fill">star</span> <span class="material-icons">star_border</span> <span class="material-icons">star_border</span> </div>
+					</div>
+					<div class="field-cover">
+						<div class="field-label"><span class="count">2.</span>Title of your review:</div>
+						<input class="field-border" type="text" name=""> </div>
+					<div class="field-cover">
+						<div class="field-label"><span class="count">3.</span>Write your review:</div>
+						<textarea class="field-border"></textarea>
+					</div>
+					<div class="field-cover">
+						<div class="field-label"><span class="count">4.</span>When did you visit the beach?</div>
+						<input class="field-border" type="text" name="" placeholder="MM/YYYY"> </div>
+					<div class="field-cover">
+						<div class="field-label"><span class="count">5.</span>What facilities are around? You can select as much as you want.</div>
+						<div class="field-border facility-sec">
+							<ul class="check-multiple facility-wdth">
+								<li>
+									<div class="custom-checkbox">
+										<input id="Toilets" type="checkbox" name="">
+										<label for="Toilets"> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span> Toilets </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Accessible_Toilets" type="checkbox" name="">
+										<label for="Accessible_Toilets"> <span class="svg-icon"><img src="images/accessible_toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/accessible_toilets_checked.svg"></span> Accessible Toilets </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Shower" type="checkbox" name="">
+										<label for="Shower"> <span class="svg-icon"><img src="images/shower.svg"></span> <span class="svg-icon icon-checked"><img src="images/shower_checked.svg"></span> Showers </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Accessible_Shower" type="checkbox" name="">
+										<label for="Accessible_Shower"> <span class="svg-icon"><img src="images/accessible_shower.svg"></span> <span class="svg-icon icon-checked"><img src="images/accessible_shower_checked.svg"></span> Accessible Showers </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Changing_Room" type="checkbox" name="">
+										<label for="Changing_Room"> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span> Changing Room </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Baby_Changing" type="checkbox" name="">
+										<label for="Baby_Changing"> <span class="svg-icon"><img src="images/baby_changing.svg"></span> <span class="svg-icon icon-checked"><img src="images/baby_changing_checked.svg"></span> Baby Changing Room </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Wifi_spot" type="checkbox" name="">
+										<label for="Wifi_spot"> <span class="svg-icon"><img src="images/wifi.svg"></span> <span class="svg-icon icon-checked"><img src="images/wifi_checked.svg"></span> WIFI Spot </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Lifeguarded" type="checkbox" name="">
+										<label for="Lifeguarded"> <span class="svg-icon"><img src="images/lifeguarded.svg"></span> <span class="svg-icon icon-checked"><img src="images/lifeguarded_checked.svg"></span> Lifeguard </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="First_Aid_Service" type="checkbox" name="">
+										<label for="First_Aid_Service"> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span> First Aid Service </label>
+									</div>
+								</li>
+							</ul>
+							<ul class="check-multiple facility-wdth">
+								<li>
+									<div class="custom-checkbox">
+										<input id="Umbrellas" type="checkbox" name="">
+										<label for="Umbrellas"> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span> Umbrellas </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Sundbeds" type="checkbox" name="">
+										<label for="Sundbeds"> <span class="svg-icon"><img src="images/sunbed.svg"></span> <span class="svg-icon icon-checked"><img src="images/sunbed_checked.svg"></span> Sundbeds </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Restaurant" type="checkbox" name="">
+										<label for="Restaurant"> <span class="svg-icon"><img src="images/restaurant.svg"></span> <span class="svg-icon icon-checked"><img src="images/restaurant_checked.svg"></span> Restaurants </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="bar" type="checkbox" name="">
+										<label for="bar"> <span class="svg-icon"><img src="images/bar.svg"></span> <span class="svg-icon icon-checked"><img src="images/bar_checked.svg"></span> Bars </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Hotel" type="checkbox" name="">
+										<label for="Hotel"> <span class="svg-icon"><img src="images/hotel.png"></span> <span class="svg-icon icon-checked"><img src="images/hotel_checked.png"></span> Hotels </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Supermarket" type="checkbox" name="">
+										<label for="Supermarket"> <span class="svg-icon"><img src="images/supermarket.svg"></span> <span class="svg-icon icon-checked"><img src="images/supermarket_checked.svg"></span> Supermarkets </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Parking" type="checkbox" name="">
+										<label for="Parking"> <span class="svg-icon"><img src="images/parking.svg"></span> <span class="svg-icon icon-checked"><img src="images/parking_checked.svg"></span> Parking </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Bike_Parking" type="checkbox" name="">
+										<label for="Bike_Parking"> <span class="svg-icon"><img src="images/byke_parking.svg"></span> <span class="svg-icon icon-checked"><img src="images/byke_parking_checked.svg"></span> Bicycle Parking </label>
+									</div>
+								</li>
+							</ul>
+							<ul class="check-multiple facility-wdth">
+								<li>
+									<div class="custom-checkbox">
+										<input id="Playground" type="checkbox" name="">
+										<label for="Playground"> <span class="svg-icon"><img src="images/playground.svg"></span> <span class="svg-icon icon-checked"><img src="images/playground_checked.svg"></span> Kids Playground </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Outdoor_Gym" type="checkbox" name="">
+										<label for="Outdoor_Gym"> <span class="svg-icon"><img src="images/outdoor_gym.svg"></span> <span class="svg-icon icon-checked"><img src="images/outdoor_gym_checked.svg"></span> Outdoor Gym </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Water_Sports" type="checkbox" name="">
+										<label for="Water_Sports"> <span class="svg-icon"><img src="images/water_sport.svg"></span> <span class="svg-icon icon-checked"><img src="images/water_sport_checked.svg"></span> Water Sports </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Soccer_Net" type="checkbox" name="">
+										<label for="Soccer_Net"> <span class="svg-icon"><img src="images/soccer-net.svg"></span> <span class="svg-icon icon-checked"><img src="images/soccer-net-checked.svg"></span> Soccer Court </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Volleyball_Net" type="checkbox" name="">
+										<label for="Volleyball_Net"> <span class="svg-icon"><img src="images/volleyball_net.svg"></span> <span class="svg-icon icon-checked"><img src="images/volleyball_net_checked.svg"></span> Volleyball Court </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Basketball_Court" type="checkbox" name="">
+										<label for="Basketball_Court"> <span class="svg-icon"><img src="images/basketball_court.svg"></span> <span class="svg-icon icon-checked"><img src="images/basketball_court_checked.svg"></span> Basketball Court </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Recycling_Bins" type="checkbox" name="">
+										<label for="Recycling_Bins"> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span> Recycling Bins </label>
+									</div>
+								</li>
+								<li>
+									<div class="custom-checkbox">
+										<input id="Trash_Bins" type="checkbox" name="">
+										<label for="Trash_Bins"> <span class="svg-icon"><img src="images/trash_bins.svg"></span> <span class="svg-icon icon-checked"><img src="images/trash_bins_checked.svg"></span> Trash Bins </label>
+									</div>
+								</li>
+								
+							
+							</ul>
+							<div class="field-cover activities-other">
+									<input class="field-border" type="text" name="" placeholder="Other">
+							</div>
+							
+						</div>
+					</div>
+					<div class="field-cover">
+						<div class="field-label"><span class="count">6.</span>What type of beach is it? You can select as much as you want.</div>
+						<ul class="field-border multiple-opt">
+							<li>
+								<div class="select-opt">
+									<input id="Sandy" type="checkbox" name="">
+									<label for="Sandy">Sandy</label>
+								</div>
+							</li>
+							<li>
+								<div class="select-opt">
+									<input id="Rocky" type="checkbox" name="">
+									<label for="Rocky">Rocky</label>
+								</div>
+							</li>
+							<li>
+								<div class="select-opt">
+									<input id="Glass" type="checkbox" name="">
+									<label for="Glass">Glass</label>
+								</div>
+							</li>
+							<li>
+								<div class="select-opt">
+									<input id="Seashells" type="checkbox" name="">
+									<label for="Seashells">Seashells</label>
+								</div>
+							</li>
+							<li>
+								<div class="select-opt">
+									<input id="Caves" type="checkbox" name="">
+									<label for="Caves">Caves</label>
+								</div>
+							</li>
+							<li>
+								<div class="select-opt">
+									<input id="Urban" type="checkbox" name="">
+									<label for="Urban">Urban</label>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="more-descr d-flex">
+						<p>Could you please give us a little bit more information related to this beach location? You can also upload some nice pictures (optional).</p> 
+						<a class="submit-btn" href="#">More <span class="material-icons">arrow_forward_ios</span></a>
+					</div>
+					<div class="save-review">
+						<p>Or save your review now:</p>
+						<div class="accept-cb li-blu d-flex">
+							<div class="form-group li-blu-txt">
+								<input type="checkbox" id="check-in">
+								<label for="check-in">I certify that this review is genuine and based on my own experience.</label>
+							</div>
+							<a class="submit-btn" href="#">Save</a> 
+						</div>
+					</div> 
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-inner">
+			<div class="f-logo">
+				<a href="#"><img src="images/Logo-blue.png"></a>
+			</div>
+			<div class="f-social">
+				<a href="#" target="_blank"><img src="images/facebook.svg"></a>
+				<a href="#" target="_blank"><img src="images/instagram.svg"></a>
+				<a href="#" target="_blank"><img src="images/linkedin.svg"></a>
+			</div>
+			<div class="f-nav-menu">
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Cookies</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="f-copyright">© Globe Beaches. All rights reserved.</div>
+		</div>
+	</footer>
+</body>
+
+</html>

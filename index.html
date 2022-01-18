@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Globe Beaches</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="sass/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="sass/style.css">
+	<link rel="stylesheet" type="text/css" href="sass/custom.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</head>
+<body>
+	<header class="site-header header-transparent">
+		<div class="header-inner d-flex">
+			<div class="site-logo col-6 col-lg-4 col-md-4 px-0"><a href="#"><img src="images/logo.png"></a></div>
+			<div class="header-right col-6 col-lg-4 col-md-4 px-0">
+				<div class="nav-toggle-cover">
+					<div class="nav-toggle">
+	                    <div class="toggle">
+	                        <div class="one"></div>
+	                        <div class="two"></div>
+	                        <div class="three"></div>
+	                    </div>
+	                    <div class="nav-menu">
+	                    	<ul class="menu">
+	                    		<li><a data-toggle="modal" data-target="#login" href="#">Login</a></li>
+	                    		<li><a data-toggle="modal" data-target="#forgot-password" href="#">Forgot Password</a></li>
+	                    		<li><a href="#">Home</a></li>
+	                    		<li><a href="#">Top Rated</a></li>
+	                    		<li><a href="#">Latest Reviews </a></li>
+	                    	</ul>
+	                    </div>
+	                </div>
+					<div class="h-profile" data-toggle="modal" data-target="#exampleModal"><img src="images/user-profile.svg"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="hero-section">
+		<div class="hero-inner">
+			<video class="background-video" autoplay loop muted>
+			  <source src="images/whitehavenBeach.mp4" type="video/mp4">
+			</video>
+			<div class="hero-src-cover">
+				<label>Find Your Beach Inspiration:</label>
+				<div class="h-src-inr">
+					<input type="text" name="" placeholder="Where are you going?">
+					<button class="btn src-submit"><img src="images/search-icon.svg"></button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="latest-review">
+		<div class="container-fluid">
+			<h2 class="section-heading">Top Rated</h2>
+			<div class="review-slider">
+				<div class="review-cover">
+					<div class="review-item">
+						<div class="beach-img"><img src="images/beach-img-1.jpg"></div>
+						<div class="beach-desc">
+							<div class="beach-info">
+								<h3 class="beach-name">Beach name here</h3>
+								<div class="beach-location">Location, Country</div>
+							</div>
+							<div class="star-rated">
+								<span class="material-icons fill">star</span>
+								<span class="material-icons fill">star</span>
+								<span class="material-icons fill">star</span>
+								<span class="material-icons">star_border</span>
+								<span class="material-icons">star_border</span>
+							</div>
+						</div>
+					</div>
+					<div class="review-item">
+						<div class="beach-img"><img src="images/beach-img-2.jpg"></div>
+						<div class="beach-desc">
+							<div class="beach-info">
+								<h3 class="beach-name">Beach name here</h3>
+								<div class="beach-location">Location, Country</div>
+							</div>
+							<div class="star-rated">
+								<span class="material-icons fill">star</span>
+								<span class="material-icons fill">star</span>
+								<span class="material-icons fill">star</span>
+								<span class="material-icons">star_border</span>
+								<span class="material-icons">star_border</span>
+							</div>
+						</div>
+					</div>
+					<div class="review-item">
+						<div class="beach-img"><img src="images/beach-img-3.jpg"></div>
+						<div class="beach-desc">
+							<div class="beach-info">
+								<h3 class="beach-name">Beach name here</h3>
+								<div class="beach-location">Location, Country</div>
+							</div>
+							<div class="star-rated">
+								<span class="material-icons fill">star</span>
+								<span class="material-icons fill">star</span>
+								<span class="material-icons fill">star</span>
+								<span class="material-icons">star_border</span>
+								<span class="material-icons">star_border</span>
+							</div>
+						</div>
+					</div>
+					<div class="review-item">
+						<div class="beach-img"><img src="images/beach-img-4.jpg"></div>
+						<div class="beach-desc">
+							<div class="beach-info">
+								<h3 class="beach-name">Beach name here</h3>
+								<div class="beach-location">Location, Country</div>
+							</div>
+							<div class="star-rated">
+								<span class="material-icons fill">star</span>
+								<span class="material-icons fill">star</span>
+								<span class="material-icons fill">star</span>
+								<span class="material-icons">star_border</span>
+								<span class="material-icons">star_border</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="latest-review">
+		<div class="container-fluid">
+			<h2 class="section-heading">Latest Reviews</h2>
+			<div class="review-slider">
+				<div class="review-cover">
+					<div class="review-item">
+						<div class="beach-img"><img src="images/beach-img-5.jpg"></div>
+						<div class="beach-desc">
+							<div class="beach-info">
+								<h3 class="beach-name">Beach name here</h3>
+								<div class="beach-location">Location, Country</div>
+							</div>
+							<div class="star-rated">
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+							</div>
+						</div>
+					</div>
+					<div class="review-item">
+						<div class="beach-img"><img src="images/beach-img-3.jpg"></div>
+						<div class="beach-desc">
+							<div class="beach-info">
+								<h3 class="beach-name">Beach name here</h3>
+								<div class="beach-location">Location, Country</div>
+							</div>
+							<div class="star-rated">
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+							</div>
+						</div>
+					</div>
+					<div class="review-item">
+						<div class="beach-img"><img src="images/beach-img-6.jpg"></div>
+						<div class="beach-desc">
+							<div class="beach-info">
+								<h3 class="beach-name">Beach name here</h3>
+								<div class="beach-location">Location, Country</div>
+							</div>
+							<div class="star-rated">
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+							</div>
+						</div>
+					</div>
+					<div class="review-item">
+						<div class="beach-img"><img src="images/beach-img-7.jpg"></div>
+						<div class="beach-desc">
+							<div class="beach-info">
+								<h3 class="beach-name">Beach name here</h3>
+								<div class="beach-location">Location, Country</div>
+							</div>
+							<div class="star-rated">
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+								<span class="material-icons">star</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-inner">
+			<div class="f-logo">
+				<a href="#"><img src="images/Logo-blue.png"></a>
+			</div>
+			<div class="f-social">
+				<a href="#" target="_blank"><img src="images/facebook.svg"></a>
+				<a href="#" target="_blank"><img src="images/instagram.svg"></a>
+				<a href="#" target="_blank"><img src="images/linkedin.svg"></a>
+			</div>
+			<div class="f-nav-menu">
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Cookies</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="f-copyright">© Globe Beaches. All rights reserved.</div>
+		</div>
+	</footer>
+	<div class="modal fade login-register" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+				    <div class="modal-content">
+				      	<h2 class="section-heading">Register</h2>
+				      	<div class="reg-form-cover">
+				      		<div class="field-cover">
+								<div class="field-label">First Name:</div>
+								<input class="field-border" type="text" name="" placeholder="Enter your First Name">
+							</div>
+							<div class="field-cover">
+								<div class="field-label">Last Name:</div>
+								<input class="field-border" type="text" name="" placeholder="Enter your Last Name">
+							</div>
+							<div class="field-cover">
+								<div class="field-label">Username:</div>
+								<input class="field-border" type="text" name="" placeholder="Enter your Username">
+							</div>
+							<div class="field-cover">
+								<div class="field-label">Email Address:</div>
+								<input class="field-border" type="text" name="" placeholder="Enter your Email Address">
+							</div>
+							<div class="field-cover">
+								<div class="field-label">Password:</div>
+								<input class="field-border" type="password" name="" placeholder="Enter your Password">
+							</div>
+							<div class="reg-check-box">
+								<input id="check" type="checkbox" name="">
+								<label for="check">Yes, I want to join your mail list for future offers, surveys and more.</label>
+							</div>
+				      	</div>
+				      	<div class="reg-pop-footer">
+				      		<div class="ac-cta-link"><a href="#">Already have an account? Login here.</a></div>
+				      		<div class="submit-form"><a class="submit-btn" href="#">Register</a></div>
+				      	</div>
+				      	<div class="close-popup" data-dismiss="modal"><img src="images/close-popup.svg"></div>
+				    </div>
+				  </div>
+				</div>
+				<div class="modal fade login-register" id="login" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+				    <div class="modal-content">
+				      	<h2 class="section-heading">Login</h2>
+				      	<div class="reg-form-cover">
+							<div class="field-cover">
+								<div class="field-label">Email Address:</div>
+								<input class="field-border" type="text" name="" placeholder="Enter your Email Address">
+							</div>
+							<div class="field-cover">
+								<div class="field-label">Password:</div>
+								<input class="field-border" type="password" name="" placeholder="Enter your Password">
+							</div>
+							<div class="reg-check-box">
+								<input id="check" type="checkbox" name="">
+								<label for="check">Remember me</label>
+								<a class="forgot-pass" href="#">Forgot Password?</a>
+							</div>
+				      	</div>
+				      	<div class="reg-pop-footer">
+				      		<div class="ac-cta-link"><a href="#">Don't have an account? Register here.</a></div>
+				      		<div class="submit-form"><a class="submit-btn" href="#">Login</a></div>
+				      	</div>
+				      	<div class="close-popup" data-dismiss="modal"><img src="images/close-popup.svg"></div>
+				    </div>
+				  </div>
+				</div>
+				<div class="modal fade login-register" id="forgot-password" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+				    <div class="modal-content">
+				      	<h2 class="section-heading">Forgot Password</h2>
+				      	<div class="reg-form-cover">
+							<div class="field-cover">
+								<div class="field-label">New Password:</div>
+								<input class="field-border" type="password" name="" placeholder="Enter New Password">
+							</div>
+							<div class="field-cover">
+								<div class="field-label">Confirm Password:</div>
+								<input class="field-border" type="password" name="" placeholder="Confirm Password">
+							</div>
+						</div>
+				      	<div class="reg-pop-footer">
+				      		<div class="ac-cta-link"><a href="#">Back to login</a></div>
+				      		<div class="submit-form"><a class="submit-btn" href="#">Submit</a></div>
+				      	</div>
+				      	<div class="close-popup" data-dismiss="modal"><img src="images/close-popup.svg"></div>
+				    </div>
+				  </div>
+				</div>
+</body>
+</html>

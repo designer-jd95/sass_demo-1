@@ -1,0 +1,1681 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+$primary-color:#4c4cac;
+$secondary-color:#509edb;
+
+body {
+	font-family: 'Roboto', sans-serif;;
+	line-height: 1.5; 
+	color: $primary-color;
+}
+input, select, textarea, button, a {
+	outline: none !important;
+}
+a {
+	color: $primary-color;
+    &:hover {
+        text-decoration: none;
+        color: $secondary-color;
+    }
+}
+input::placeholder, textarea::placeholder {
+	color: #9999;
+}
+
+/*------Header------*/
+.site-header {
+    background-color: $secondary-color;
+}
+.container {
+    max-width: 1580px;
+}
+.header-inner {
+    justify-content: space-between;
+    padding: 18px 0;
+    align-items: center;
+    width: 93%;
+    margin: 0 auto;
+}
+.site-logo img {
+    width: 260px;
+}
+.h-src-inr {
+    display: flex;
+    position: relative;
+    input {
+        border: 1px solid $primary-color;
+        padding: 12px 60px 12px 20px;
+        border-radius: 60px;
+        width: 100%;
+        font-size: 16px;
+        color: $primary-color;
+        box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    }
+    .src-submit {
+        position: absolute;
+        right: 10px;
+        box-shadow: none;
+        top: 7px;
+    }
+    .src-submit img {
+        display: block;
+        width: 20px;
+    }
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.toggle {
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+}
+.toggle {
+    div {
+        width: 100%;
+        height: 2px;
+        background: $primary-color;
+        transition: all 0.3s;
+        border-radius: 2px;
+    }
+    .two {
+        margin: 4px auto;
+    }
+}
+.show {
+    .one {
+        transform: rotate(45deg) translate(6px, 3px);
+         -webkit-transform: rotate(45deg) translate(6px, 3px);
+     }
+    .two {
+        opacity: 0;
+    }
+    .three {
+        transform: rotate(-45deg) translate(5px, -3px);
+        -webkit-transform: rotate(-45deg) translate(5px, -3px);
+    }
+}
+.h-profile {
+    margin-left: 8px;
+    cursor: pointer;
+    img {
+        display: block;
+        width: 28px;
+    }
+}
+.nav-toggle-cover {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 4px 8px 4px 12px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+/*----Write Review----*/
+.review-options {
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        justify-content: flex-start;
+        margin: 15px 0 0;
+        li {
+            margin-right: 50px;
+            :last-child {
+                margin-right:0 
+            }
+            a {
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+    .material-icons {
+        font-weight: 600;
+        position: relative;
+        top: 3px;
+        font-size: 20px;
+    }
+}
+.container-left {
+    width: 31%;
+}
+.container-right {
+    width: 69%;
+    margin-bottom: 70px;
+}
+.beach-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.page-heading span {
+    font-size: 16px;
+    font-weight: 500;
+}
+.review-options {
+    padding-bottom: 100px;
+}
+.page-heading {
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+.write-review-form {
+    width: 666px;
+}
+.field-border {
+    padding: 15px 35px;
+    border: 1px solid $primary-color;
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    font-size: 16px;
+    font-weight: 500;
+    color: $primary-color;
+}
+.field-border > .material-icons {
+    font-size: 35px;
+    margin-right: 25px;
+    font-weight: 400;
+}
+.field-border .material-icons.fill {
+    color: #ffcc00;
+}
+.field-label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+.field-cover {
+    margin-bottom: 35px;
+}
+.count {
+    width: 30px;
+    height: 30px;
+    background-color: $secondary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 100%;
+    margin-right: 12px;
+    font-size: 15px;
+}
+textarea.field-border {
+    height: 250px;
+    resize: none;
+}
+.profile-left {
+    padding-top: 70px;
+}
+.profile-left img {
+    width: 200px;
+}
+.check-multiple {
+    display: flex;
+    flex-flow: wrap;
+}
+.check-multiple li {
+    width: 33.33%;
+    list-style: none;
+    margin-bottom: 28px;
+}
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+}
+.custom-checkbox label {
+    cursor: pointer;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.custom-checkbox label:hover {
+    color: $secondary-color;
+}
+.custom-checkbox:hover label .icon-checked {
+    display: block !important;
+}
+.custom-checkbox:hover label .svg-icon {
+    display: none;
+}
+.custom-checkbox .svg-icon {
+	position: relative;	
+}
+.svg-icon.restriction-line::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    background: #c80000;
+    transform: rotate(45deg);
+    top: 12px;
+    left: -1px;
+}
+.restriction-line.icon-checked::before {
+    background: $secondary-color;
+}
+.custom-checkbox input:checked ~ label, .multiple-opt input:checked ~ label {
+    color: $secondary-color;
+}
+.check-multiple {
+    display: flex;
+    flex-flow: wrap;
+    padding: 30px 30px 0;
+}
+/*----update-css--16-8-21------*/
+.facility-wdth {
+    width: 33%;
+    display: block;
+    flex-flow: wrap;
+    padding: 0 !important;
+    margin-bottom: 0;
+}
+.facility-sec{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 30px 30px 0;
+}
+.facility-wdth li {
+    width: 100% !important;
+}
+.facility-sec .field-cover.activities-other {
+    margin-top: -65px;
+}
+
+.custom-checkbox .material-icons {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.multiple-opt {
+    display: flex;
+    justify-content: space-between;
+}
+.select-opt input {
+    position: absolute;
+    opacity: 0;
+}
+.select-opt label {
+    margin: 0;
+    cursor: pointer;
+}
+.select-opt:hover {
+    color: $secondary-color;
+}
+.multiple-opt li {
+    list-style: none;
+}
+.more-descr p {
+    font-size: 16px;
+    font-weight: 500;
+    width: 470px;
+    line-height: 1.3;
+    color: $primary-color;
+    margin-bottom: 0;
+}
+.submit-btn {
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    background-color: $secondary-color;
+    padding: 15px 10px 15px;
+    line-height: 1;
+    border-radius: 12px;
+    float: right;
+    min-width: 130px;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    border: 0;
+}
+.submit-btn:hover {
+	background-color: $primary-color;
+}
+.more-descr {
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 2px solid $primary-color;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.accept-cb {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.submit-btn .material-icons {
+    font-weight: 900;
+    position: relative;
+    top: -1px;
+    right: -8px;
+    font-size: 16px;
+}
+.save-review p {
+    font-size: 16px;
+    color: $primary-color;
+    font-weight: 500;
+}
+.save-review .form-group label {
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    width: 470px;
+    align-items: center;
+    line-height: 1.2;
+}
+.save-review .form-group label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid $primary-color;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.li-blu .form-group label:before {
+    border: 2px solid $secondary-color;
+}
+.li-blu-txt{
+    color: $secondary-color;
+}
+.save-review .li-blu .form-group input:checked + label:after {
+    border: solid $secondary-color;
+    border-width: 0 2px 2px 0;
+}
+.save-review .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    width: 8px;
+    height: 17px;
+    border: solid $primary-color;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.save-review .form-group input {
+    position: absolute;
+    opacity: 0;
+}
+/*-------Footer-------*/
+.footer-inner {
+    border-top: 3px solid $primary-color;
+    padding: 40px 0;
+    text-align: center;
+}
+.f-logo img {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+}
+.f-social img {
+    width: 40px;
+    margin: 0 15px;
+    transition: 0.4s;
+}
+.f-social img:hover {
+    margin-top: -20px;
+}
+.f-social {
+    padding: 30px 0;
+}
+.f-nav-menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.f-nav-menu ul li {
+    margin-right: 25px;
+    padding-right: 25px;
+    border-right: 2px solid $primary-color;
+    line-height: 1;
+}
+.f-nav-menu ul li:last-child {
+	margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+}
+.f-nav-menu ul li a {
+    font-size: 16px;
+    font-weight: 500;
+}
+.f-copyright {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.svg-icon img {
+    display: block;
+    height: 26px;
+    margin-right: 8px;
+}
+.custom-checkbox input:checked ~ label .svg-icon {
+    display: none;
+}
+.custom-checkbox input:checked ~ label .svg-icon.icon-checked, .custom-checkbox input ~ label .svg-icon.icon-checked:hover {
+    display: block;
+}
+.svg-icon.icon-checked {
+    display: none;
+}
+/*-----Home page-----*/
+.header-transparent {
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    top: 0;
+    z-index: 1;
+}
+.hero-inner {
+    height: 94vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.hero-src-cover label {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.background-video {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+}
+.hero-src-cover {
+    width: 760px;
+    position: relative;
+}
+.hero-section .h-src-inr input {
+    padding: 20px 90px 20px 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.hero-section .h-src-inr .src-submit {
+    right: 40px;
+    padding: 0;
+    top: 20px;
+}
+.container-fluid {
+    width: 90%;
+}
+.review-cover {
+    display: flex;
+}
+.review-item {
+    width: calc(25% - 30px);
+    margin-right: 40px;
+}
+.review-item:last-child {
+    margin-right: 0;
+}
+.beach-img {
+    height: 375px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.beach-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    transition: 0.5s;
+}
+.review-item:hover img {
+    transform: scale(1.2);
+}
+.beach-info .beach-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+.beach-location {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 5px;
+}
+.beach-desc {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.star-rated .material-icons {
+    color: #ffcc00;
+    float: left;
+    font-size: 20px;
+}
+.section-heading {
+    font-size: 40px;
+    margin-bottom: 35px;
+    font-family: 'Kaushan Script', cursive;
+    line-height: 1;
+}
+.hero-section, .latest-review {
+    padding-bottom: 70px;
+}
+/*-----Login Register Popup-----*/
+.login-register .modal-dialog {
+    max-width: 650px;
+    width: 650px;
+}
+.login-register .modal-dialog .modal-content {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 35px;
+    position: relative;
+    border-radius: 0;
+}
+.reg-form-cover .field-border {
+    padding: 12px 30px;
+}
+.reg-form-cover .field-label {
+    margin-bottom: 10px;
+}
+.reg-form-cover .field-cover {
+    margin-bottom: 25px;
+}
+.reg-form-cover .section-heading {
+    margin-bottom: 50px;
+}
+.reg-pop-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ac-cta-link a {
+    color: $secondary-color;
+    font-weight: 500;
+}
+.ac-cta-link a:hover {
+    color: $primary-color;
+}
+.reg-check-box {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+}
+.reg-check-box label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.reg-check-box label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 23px;
+    width: 23px;
+    border: 2px solid;
+    border-radius: 100%;
+}
+.reg-check-box label::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    height: 15px;
+    width: 15px;
+    background: $primary-color;
+    border-radius: 100%;
+    opacity: 0;
+    transition: 0.35s;
+}
+.reg-check-box input:checked ~ label::after {
+    opacity: 1;
+}
+.reg-check-box input {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    cursor: pointer;
+}
+.close-popup img {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    background: #ffffff;
+    height: 38px;
+    width: 38px;
+    padding: 8px;
+    border-radius: 50px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+.forgot-pass {
+    margin-left: auto;
+    color: $secondary-color;
+}
+.forgot-pass:hover {
+    color: $primary-color;
+}
+.nav-menu {
+    position: absolute;
+    width: 300px;
+    background: #fff;
+    right: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-top: 14px;
+    opacity: 0;
+    z-index: 1;
+    visibility: hidden;
+}
+.nav-menu ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-menu ul.menu a {
+    font-size: 16px;
+    line-height: 1;
+    margin: 10px 0;
+    display: inline-block;
+}
+.toggle.show ~ .nav-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.src-filter {
+    width: 200px;
+    font-family: 'Roboto';
+    box-shadow: inherit !important;
+    border-radius: 30px;
+    border: 1px solid $primary-color !important;
+    color: $primary-color !important;
+    font-weight: 500;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    background-image: url("../images/down-arrow.svg");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    height: 45px;
+}
+.src-filter .dropdown-toggle::after {
+    display: none;
+}
+.filtr-drop{
+   width: 100%;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-top: 3px;
+    border: 0;
+}
+.filtr-drop a{
+    font-size: 16px;
+    line-height: 1;
+    margin: 10px 0;
+    display: inline-block;
+    color: $primary-color !important;
+}
+
+.filtr-drop a:hover{
+    color: $secondary-color !important;
+    background: transparent;
+}
+.filtr-drop .dropdown-item{
+    padding: 0 !important;
+}
+.src-filter a.btn {
+    display: block;
+    padding: 10px 0 10px 20px;
+    text-align: left;
+    color: $primary-color !important;
+}
+// .src-filter .btn.focus, .btn:focus {
+//     box-shadow: 0 0 0 0.2rem rgba(0,123,255,0);
+// }
+.dropdown-item.active, .dropdown-item:active {
+     background-color: transparent; 
+     color: $primary-color;
+}
+.header-advt-banner img {
+    width: 100%;
+    display: block;
+}
+.header-advt-banner {
+    margin-bottom: 25px;
+}
+.two-col-advt {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.advt-col-inner img {
+    width: 100%;
+}
+.advt-col-inner {
+    width: 48%;
+}
+.ad-container {
+    width: 95%;
+    margin: 0 auto;
+}
+.side-ad-banner {
+    display: flex;
+    justify-content: space-between;
+}
+.side-banner {
+    width: 9%;
+}
+.side-banner img {
+    width: 100%;
+}
+.side-ad-banner .more-page-inner {
+    width: 91.5%;
+}
+.activation-message {
+    text-align: center;
+}
+.activation-message > img {
+    width: 150px;
+    margin-bottom: 40px;
+}
+.activation-message p {
+    font-size: 22px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.activation-message .submit-btn {
+    display: inline-block;
+    float: none;
+    margin-top: 35px;
+}
+.back-to-home img {
+    width: 26px;
+    margin: 0 5px 0 0;
+}
+.back-to-home {
+    font-weight: 500;
+    margin-top: 38px;
+    display: inline-block;
+}
+
+
+/*----Reset Password----*/
+.reset-pwd {
+    padding: 70px 0;
+}
+.reset-pwd-inner {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px 50px 60px;
+    border: 1px solid $primary-color;
+    border-radius: 40px;
+}
+.reset-pwd-inner form {
+    display: inline-block;
+    width: 100%;
+}
+.reset-pwd-inner form a.submit-btn {
+    display: inline-block;
+    float: none;
+}
+
+/***********media-query*********/
+@media only screen and (max-width: 1699px){
+.container {
+    max-width: 85%;
+    padding: 0;
+}
+.site-logo img {
+    width: 260px;
+}
+.section-heading {
+    font-size: 30px;
+}
+.submit-btn {
+    font-size: 15px;
+}
+.beach-info .beach-name {
+    font-size: 15px;
+}
+.beach-location {
+    font-size: 14px;
+}
+.beach-img {
+    height: 290px;
+}
+.hero-src-cover label {
+    font-size: 22px;
+}
+.hero-section .h-src-inr input {
+    font-size: 18px;
+}
+.h-src-inr .src-submit img {
+    width: 20px;
+}
+.f-logo img {
+    width: 260px;
+}
+.f-social img {
+    width: 40px;
+}
+.beach-name {
+    font-size: 22px;
+}
+/*---------Write Review----------*/
+.review-options ul li a {
+    font-size: 16px;
+}
+.review-options {
+    padding-bottom: 75px;
+}
+.container-right {
+    width: 65%;
+}
+.review-options ul li {
+    margin-right: 40px;
+}
+.page-heading {
+    padding-bottom: 40px;
+}
+.field-border > .material-icons {
+    font-size: 40px;
+}
+.field-border {
+    font-size: 15px;
+}
+.hero-src-cover {
+    width: 700px;
+    position: relative;
+}
+.review-item {
+   width: calc(25% - 34px);
+    margin-right: 46px;
+}
+.svg-icon img {
+    height: 30px;
+}
+.more-descr p {
+    font-size: 15px;
+}
+
+.page-heading span {
+    font-size: 15px;
+}
+.write-review-form {
+    width: 590px;
+}
+.review-options .material-icons {
+    font-size: 18px;
+}
+.h-src-inr input {
+    font-size: 15px;
+}
+.h-src-inr input {
+    padding: 12px 60px 12px 20px;
+}
+.h-src-inr .src-submit {
+    right: 4px;
+    top: 6px;
+}
+.field-cover {
+    margin-bottom: 22px;
+}
+.save-review .form-group label:before {
+    padding: 15px;
+}
+.save-review .form-group label {
+    font-size: 15px;
+    width: 380px;
+}
+.save-review .form-group input:checked + label:after {
+   top: 7px;
+    left: 14px;
+    width: 8px;
+    height: 18px;
+}
+.submit-btn .material-icons {
+    font-size: 16px;
+}
+.f-nav-menu ul li a {
+    font-size: 15px;
+}
+.f-copyright {
+    font-size: 15px;
+}
+.nav-menu ul.menu a {
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 1400px){
+.site-logo img {
+    width: 230px;
+}
+.hero-src-cover label {
+    font-size: 18px;
+}
+.hero-section .h-src-inr input {
+    font-size: 16px;
+}
+.hero-section .h-src-inr input {
+    padding: 13px 50px 13px 40px;
+}
+.hero-section .h-src-inr .src-submit {
+    right: 25px;
+    top: 17px;
+}
+.star-rated .material-icons {
+    font-size: 24px;
+}
+.star-rated .material-icons {
+    font-size: 21px;
+}
+
+.beach-img {
+    height: 260px;
+}
+.review-item {
+    width: calc(25% - 20px);
+    margin-right: 30px;
+}
+.f-logo img {
+    width: 240px;
+}
+.f-social img {
+    margin: 0 10px;
+}
+.h-src-inr .src-submit img {
+    width: 25px;
+}
+.hero-src-cover {
+    width: 600px;
+}
+
+/*---------Write Review----------*/
+
+.h-src-inr input {
+    font-size: 16px;
+}
+.h-src-inr .src-submit img {
+    width: 20px;
+}
+.container-right {
+    margin-bottom: 80px;
+}
+.footer-inner {
+    padding: 40px 0;
+}
+
+.more-descr p {
+    width: 400px;
+}
+.section-heading {
+    font-size: 25px;
+}
+.field-border > .material-icons {
+    font-size: 35px;
+}
+.save-review .form-group label:before {
+    padding: 13px;
+}
+.save-review .form-group input:checked + label:after {
+    top: 7px;
+    left: 12px;
+    width: 7px;
+    height: 17px;
+}
+.beach-name {
+    font-size: 20px;
+}
+
+
+}
+/*----------------------------*/
+@media only screen and (max-width: 1300px){
+.container-fluid {
+    width: 95%;
+}
+.site-logo img {
+    width: 210px;
+}
+.nav-menu ul.menu a {
+    font-size: 15px;
+}
+.hero-inner {
+    height: 84vh;
+}
+.hero-src-cover label {
+    font-size: 18px;
+}
+.hero-section .h-src-inr input {
+    font-size: 16px;
+}
+.reg-form-cover .field-border {
+    font-size: 18px;
+}
+.reg-check-box label::before {
+    width: 25px;
+    height: 25px;
+    top: 3px;
+}
+.reg-check-box label::after {
+    top: 8px;
+    height: 15px;
+    width: 15px;
+}
+.section-heading {
+    font-size: 25px;
+}
+
+.f-logo img {
+    width: 210px;
+}
+
+
+.footer-inner {
+    padding: 30px 0;
+}
+
+/*---------Write Review----------*/
+.h-src-inr input {
+    padding: 10px 50px 10px 20px;
+   
+}
+.header-inner {
+    padding: 20px 0;
+}
+.review-options ul li {
+    margin-right: 25px;
+}
+
+.profile-left img {
+    width: 180px;
+}
+.profile-left {
+    padding-top: 80px;
+}
+.page-heading {
+    padding-bottom: 30px;
+}
+.write-review-form {
+    width: 550px;
+}
+.custom-checkbox .material-icons {
+    font-size: 30px;
+}
+.more-descr {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.save-review .form-group label:before {
+    padding: 13px;
+}
+.save-review .form-group input:checked + label:after {
+    top: 7px;
+    left: 12px;
+    width: 8px;
+    height: 18px;
+}
+.container-right {
+    margin-bottom: 50px;
+}
+.field-border {
+    padding: 15px;
+}
+.field-border > .material-icons {
+    font-size: 35px;
+}
+.page-heading span {
+    font-size: 14px;
+}
+.write-review .about-para {
+    margin: 50px 0 50px 0;
+}
+
+.hero-section, .latest-review {
+    padding-bottom: 50px;
+}
+.review-options {
+    padding-bottom: 55px;
+}
+}
+/*--------------------------------------*/
+@media only screen and (max-width: 1200px){
+.h-src-inr input {
+    font-size: 14px;
+    padding: 7px 50px 7px 20px;
+}
+.site-logo img {
+    width: 190px;
+}
+.h-src-inr .src-submit img {
+    width: 17px;
+}
+.h-src-inr .src-submit {
+    right: 3px;
+    top: 3px;
+}
+.nav-menu {
+    width: 200px;
+}
+.f-logo img {
+    width: 190px;
+}
+.f-nav-menu ul li a {
+    font-size: 14px;
+}
+.f-nav-menu ul li {
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.f-copyright {
+    font-size: 14px;
+}
+.f-social {
+    padding: 25px 0;
+}
+.footer-inner {
+    padding: 25px 0;
+}
+/*-----------------*/
+.field-border {
+    padding: 13px 20px;
+}
+.review-options ul li a {
+    font-size: 14px;
+}
+.container-right {
+    width: 80%;
+}
+.review-options .material-icons {
+    font-size: 16px;
+}
+.section-heading {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.write-review-form {
+    width: 88%;
+}
+.profile-left img {
+    width: 160px;
+}
+.show .one {
+    transform: rotate( 45deg ) translate(7px, 4px);
+    -webkit-transform: rotate( 45deg ) translate(7px, 4px);
+}
+.show .three {
+    transform: rotate( -45deg ) translate(4px, -2px);
+    -webkit-transform: rotate( -45deg ) translate(4px, -2px);
+}
+.nav-menu ul.menu a {
+    font-size: 14px;
+}
+.hero-src-cover label {
+    font-size: 16px;
+}
+.hero-section .h-src-inr input {
+    font-size: 15px;
+}
+.review-item {
+    width: calc(25% - 15px);
+    margin-right: 20px;
+}
+.beach-img {
+    height: 220px;
+}
+.star-rated .material-icons {
+    font-size: 19px;
+}
+.beach-location {
+    font-size: 13px;
+}
+.beach-info .beach-name {
+    font-size: 14px;
+}
+.f-social img {
+    width: 30px;
+}
+.svg-icon.restriction-line::before {
+    height: 4px;
+    width: 24px;
+    top: 9px;
+    left: -2px;
+}
+.filtr-drop a {
+    font-size: 14px;
+}
+}
+/*--------------------------------------*/
+@media only screen and (max-width: 992px){
+.header-inner {
+    padding: 14px 0;
+    width: 90%;
+}
+.show .three {
+    transform: rotate( -45deg ) translate(4px, -4px);
+    -webkit-transform: rotate( -45deg ) translate(4px, -4px);
+}
+.show .one {
+    transform: rotate( 45deg ) translate(5px, 5px);
+    -webkit-transform: rotate( 45deg ) translate(5px, 5px);
+}
+.h-src-inr .src-submit img {
+    width: 15px;
+}
+.site-logo img {
+    width: 170px;
+}
+.f-logo img {
+    width: 170px;
+}
+.h-profile img {
+    width: 25px;
+}
+.toggle div {
+    width: 100%;
+    height: 2px;
+}
+.toggle {
+    width: 20px;
+    height: 13px;
+}
+.nav-menu ul.menu a {
+    font-size: 12px;
+}
+.review-options ul li {
+    margin-right: 16px;
+}
+.section-heading {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.review-slider.mt-5 {
+    margin-top: 40px !important;
+}
+.hero-section, .latest-review {
+    padding-bottom: 40px;
+}
+.field-label {
+    font-size: 14px;
+}
+.profile-left img {
+    width: 140px;
+}
+.profile-left {
+    padding-top: 50px;
+}
+.review-options {
+    padding-bottom: 40px;
+}
+.review-item {
+    width: calc(25% - 11px);
+    margin-right: 15px;
+}
+.beach-img {
+    height: 180px;
+}
+.beach-desc {
+    display: block;
+}
+.beach-desc .star-rated {
+    margin-top: 5px;
+}
+.hero-inner {
+    height: 50vh;
+}
+.container {
+    max-width: 90%;
+}
+.side-banner {
+    width: 12%;
+}
+.side-ad-banner .more-page-inner {
+    width: 88.5%;
+}
+section.latest-review.mt-5 {
+    margin-top: 30px !important;
+}
+
+}
+/*--------------------------------------*/
+@media only screen and (max-width: 767px){
+.header-inner {
+    flex-flow: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+.container-fluid {
+    width: 90%;
+    padding-right: 0;
+    padding-left: 0;
+}
+.header-right {
+    order: 2;
+}
+.header-search {
+    order: 3;
+    margin-top: 15px;
+}
+.submit-btn {
+    padding: 12px 8px 12px;
+    min-width: 120px;
+}
+.h-src-inr input {
+    padding: 9px 50px 9px 20px;
+}
+.beach-img {
+    height: 140px;
+}
+.container-right {
+    width: 85%;
+}
+.container-left {
+    width: 15%;
+}
+.profile-left img {
+    width: 70px;
+}
+.nav-menu {
+    width: 200px;
+    padding: 10px 18px;
+}
+.field-border {
+    border-radius: 30px;
+}
+.review-options {
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.profile-left {
+    padding-top: 20px;
+}
+.hero-section, .latest-review {
+    padding-bottom: 25px;
+}
+section.latest-review.mt-5 {
+    margin-top: 25px !important;
+}
+.src-filter a.btn {
+    font-size: 15px;
+}
+.beach-name {
+    font-size: 18px;
+}
+
+.activation-message > img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+.activation-message p {
+    font-size: 16px;
+}
+.activation-message .submit-btn {
+    margin-top: 22px;
+}
+.reset-pwd-inner {
+    width: 90%;
+    padding: 35px 35px 40px;
+}
+.reset-pwd {
+    padding: 35px 0;
+}
+
+}
+/*--------------------------------------*/
+@media only screen and (max-width: 500px){
+
+.container-right {
+    width: 100%;
+}
+.container-left {
+    width: 100%;
+    text-align: center;
+}
+.review-options ul {
+    justify-content:center;
+    flex-flow: wrap;
+}
+.review-options ul li {
+    margin-right: 20px;
+}
+.write-review-form {
+    width: 100%;
+}
+.write-review-form form {
+    width: 100%;
+}
+.container-fluid {
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.star-rated .material-icons {
+    font-size: 16px;
+}
+.review-options {
+    padding-bottom: 25px;
+    padding-top: 0;
+}
+.container {
+    width: 90%;
+    flex-flow: wrap;
+}
+.f-nav-menu ul li {
+    margin-right: 0;
+    padding-right: 0;
+    margin: 10px 0;
+    border-right: 0;
+}
+.f-nav-menu ul {
+     display: block;
+    justify-content: center;
+}
+.f-social {
+    padding: 20px 0;
+}
+.profile-left {
+    padding-top: 15px;
+}
+.field-border > .material-icons {
+    font-size: 30px;
+    margin-right: 20px;
+}
+.facility-wdth {
+    width: 100%;
+}
+.facility-sec .field-cover.activities-other {
+    margin-top: -8px;
+    width: 100%;
+}
+.multiple-opt {
+   display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.multiple-opt li {
+    margin-right: 20px;
+}
+.select-opt {
+    margin: 5px 0;
+}
+.more-descr .submit-btn {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.more-descr {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    flex-flow: wrap;
+}
+.save-review .form-group label {
+    width: 100%;
+}
+.accept-cb {
+    flex-flow: wrap;
+}
+.container-right {
+    margin-bottom: 30px;
+}
+.check-multiple {
+    display: block;
+}
+.check-multiple li {
+    width: 100%;
+}
+.review-item {
+    width: 47%;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.review-cover {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.beach-img {
+    height: 150px;
+}
+.review-slider.mt-5 {
+    margin-top: 0 !important;
+}
+.section-heading {
+    font-size: 18px;
+    display: inline-block !important;
+}
+.beach-desc .star-rated {
+    margin-top: 5px;
+    display: inline-block;
+}
+.beach-desc {
+    text-align: center;
+}
+.src-filter a.btn {
+    padding: 0;
+    font-size: 14px;
+}
+.filtr-drop {
+    margin-top: 14px;
+    left: -10px !important;
+}
+.h-src-inr .src-submit {
+    right: 9px;
+    top: 6px;
+}
+.filtr-drop a {
+    font-size: 13px;
+}
+.section-heading {
+    margin-bottom: 20px;
+}
+.hero-src-cover {
+    width: 90%;
+}
+.hero-section .h-src-inr input {
+    padding: 12px 20px 12px 20px;
+}
+.login-register .modal-dialog .modal-content {
+    padding: 20px;
+}
+.login-register .modal-dialog {
+    max-width: 93%;
+    width: 93%;
+    margin: 0 auto;
+}
+.reg-form-cover .field-border {
+    font-size: 14px;
+}
+.close-popup img {
+    top: 15px;
+    right: 15px;
+    height: 30px;
+    width: 30px;
+}
+.reg-check-box label::after {
+    left: 5px;
+}
+.reg-check-box label {
+    font-size: 14px;
+}
+.ac-cta-link a {
+    font-size: 14px;
+}
+.reg-check-box label::before {
+    width: 22px;
+    height: 22px;
+    top: 3px;
+}
+.reg-check-box label::after {
+    top: 8px;
+    height: 12px;
+    width: 12px;
+}
+.submit-btn {
+    font-size: 14px;
+    font-weight: normal;
+}
+.profile-left img {
+    width: 100px;
+}
+.hero-section, .latest-review {
+    padding-bottom: 20px;
+}
+section.hero-section {
+    margin-bottom: 20px;
+}
+.ad-container {
+    width: 92%;
+}
+.side-banner {
+    width: 14%;
+}
+
+
+.activation-message p br {
+    display: none;
+}
+.back-to-home img {
+    width: 22px;
+    margin: 0 8px 0 0;
+}
+.back-to-home {
+    margin-top: 25px;
+}
+.reset-pwd-inner {
+    width: 90%;
+    padding: 25px 25px 30px;
+    border-radius: 30px;
+}
+}

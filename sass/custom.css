@@ -1,0 +1,1333 @@
+/*-------step-2-page-------*/
+.radio .svg-icon img {
+  height: 60px;
+}
+
+.radio-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 7px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.radio-check-box:hover {
+  color: #509edb;
+}
+
+.temp-img img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.check-multiple.radio li {
+  width: 30%;
+  margin-bottom: 0;
+}
+
+.check-multiple.radio {
+  padding: 20px 30px;
+}
+
+.radio .custom-checkbox {
+  display: inline-block;
+}
+
+.radio-check-box input:checked ~ label {
+  color: #509edb;
+}
+
+.radio-check-box input {
+  display: none;
+}
+
+.field-cover.other {
+  width: 65%;
+  margin-top: -10px;
+  margin-left: auto;
+}
+
+.radio-check-box label {
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.activities-other {
+  width: 65%;
+  margin-left: auto;
+}
+
+.pictures-upload-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0;
+}
+
+.file-upload-here {
+  color: transparent;
+}
+
+.file-upload-here::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.upload-here label {
+  color: #333366;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+span.upload-svg img {
+  width: 70px;
+  height: 70px;
+}
+
+.uploaded-img {
+  margin-right: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.uploaded-img:last-child {
+  margin-right: 0;
+}
+
+.uploaded-img img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.upload-here {
+  position: relative;
+}
+
+.upload-here input {
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+}
+
+a.submit-btn.back {
+  float: left;
+}
+
+a.submit-btn.back .material-icons {
+  right: 8px;
+}
+
+/*-------edit-profile-------*/
+.edit-profile-email {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 35px 0;
+}
+
+.edit-profile-email p {
+  margin-bottom: 0;
+}
+
+.grey-color a {
+  color: #999999;
+}
+
+input.input-field {
+  border: none;
+  width: 100%;
+  padding: 0;
+  font-size: 16px;
+}
+
+textarea#fname {
+  font-size: 16px;
+}
+
+.edit-form-sub-headings {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.edit-form-sub-headings label {
+  padding-left: 40px;
+}
+
+.camera-icon {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  background: #333366;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+}
+
+.profile-left-camera input {
+  opacity: 0;
+}
+
+.profile-left-camera label {
+  position: absolute;
+  bottom: -24px;
+  left: 367px;
+  cursor: pointer;
+}
+
+.upload-profile {
+  position: relative;
+  width: 265px;
+}
+
+.upload-profile input {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+span.cam-icon {
+  position: absolute;
+  background: #333366;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  bottom: 23px;
+  right: 80px;
+}
+
+.cam-icon img {
+  width: 45% !important;
+  display: block;
+}
+
+.profile-left > span {
+  color: #509edb;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+/*-------about-us-------*/
+.about-page {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.about-descrip {
+  width: 40%;
+  margin-left: auto;
+}
+
+.abt-two-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.abt-two-div .about-descrip .page-heading {
+  padding-left: 0;
+}
+
+.about-img {
+  width: 40%;
+  margin-left: auto;
+}
+
+.con-img {
+  width: 50%;
+}
+
+.about-img img {
+  width: 100%;
+  height: 70vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px 0 0 50px;
+  -o-object-position: left;
+     object-position: left;
+  -webkit-box-shadow: 0px 3px 10px 4px #00000059;
+  box-shadow: 0px 3px 10px 4px #00000059;
+}
+
+.about-para p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+/*--------contact-us----------------*/
+.light-blue-border {
+  border: 3px solid #509edb;
+}
+
+.light-blue-border textarea {
+  border: none;
+  background: none;
+  height: 150px;
+  padding: 0;
+  resize: none;
+  width: 100%;
+}
+
+.contact-frm .submit-btn {
+  float: none;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.light-blue-border::input-placeholder {
+  color: #bcb8d1;
+}
+
+.contact-frm {
+  -webkit-box-shadow: 0px 8px 10px 4px #00000038;
+  box-shadow: 0px 8px 10px 4px #00000038;
+  padding: 40px 100px 40px;
+  background: white;
+  border-radius: 50px 0 0 50px;
+}
+
+.contact-frm .page-heading {
+  text-align: center;
+  padding-left: 0;
+}
+
+.contact-p-img {
+  width: 52%;
+  margin-right: -3%;
+  position: relative;
+}
+
+.contact-p-img img {
+  width: 80%;
+  float: right;
+}
+
+/*-----------no_review_page--------------*/
+.review-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.review-page .write-review {
+  width: 48%;
+}
+
+.write-review-img {
+  width: 48%;
+  height: 50vh;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.write-review .page-heading {
+  padding-left: 0;
+}
+
+.write-review .about-para {
+  margin: 50px 0;
+}
+
+/*------serch_page------*/
+.serch-page {
+  margin: 80px 0;
+}
+
+.serch-beach-icons {
+  width: calc(100% - 100px);
+}
+
+.serch-page-img {
+  padding-left: 50px;
+}
+
+.serch-page-descri {
+  padding-right: 50px;
+}
+
+.serch-page-img .location-map img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.serch-page-descri .page-heading {
+  padding-left: 0;
+  padding-bottom: 0px;
+}
+
+.serch-page-descri .edit-profile-heading {
+  padding-left: 0;
+}
+
+.serch-page-descri .page-heading .beach-name {
+  font-size: 18px;
+}
+
+.star-numb .numb {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.star-numb .star-rated .material-icons {
+  font-size: 20px;
+}
+
+.serch-beach-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.review-items .serch-beach-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 13px;
+}
+
+.serch-beach-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.serch-beach {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.serch-beach-icons .custom-checkbox {
+  float: right;
+}
+
+.ser-icons {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  margin-bottom: 0;
+}
+
+.ser-icons li {
+  width: 10%;
+  margin-bottom: 15px;
+}
+
+span.read-mor {
+  float: right;
+  margin-left: auto;
+  font-size: 16px;
+  text-decoration: underline;
+  margin-top: -8px;
+  font-weight: 500;
+}
+
+.ser-icons .svg-icon img {
+  margin-right: 0px;
+}
+
+ul.ser-icons li:last-child {
+  padding-right: 0;
+  margin: 0;
+}
+
+.serch-page-details {
+  margin: 20px 0 0 0;
+  border-bottom: 1px solid #509edb;
+  padding-bottom: 25px;
+}
+
+.serch-page-details:nth-child(7) {
+  border: none;
+}
+
+/*-------Search 2-------*/
+.like-review {
+  margin-left: auto;
+}
+
+.serch-beach-icons.w-100 .custom-checkbox {
+  float: left;
+}
+
+.src-review-list {
+  border-top: 1px solid #509edb;
+  margin-top: 30px;
+  padding-top: 25px;
+  display: inline-block;
+  width: 100%;
+}
+
+.review-list-title {
+  color: #509edb;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.auth-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.auth-profile {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.auth-profile img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.auth-name {
+  font-weight: 800;
+}
+
+.auth-info .date {
+  font-weight: 500;
+}
+
+.auth-info .star-rated {
+  margin-left: auto;
+}
+
+.src-review-cover {
+  margin-top: 30px;
+}
+
+.review-items .rev-subtitle {
+  font-weight: 800;
+}
+
+.review-desc p a {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.review-items {
+  margin-bottom: 30px;
+}
+
+.beach-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.beach-gallery-items img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.beach-gallery-items:hover img {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.beach-gallery-items {
+  width: calc(25% - 15px);
+  height: 9vw;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.one-by-four .beach-gallery-items:nth-child(4n) {
+  margin-right: 0;
+}
+
+/*-----Review-----*/
+.one-by-five .beach-gallery-items {
+  width: calc(20% - 12px);
+  height: 7.5vw;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.one-by-five .beach-gallery-items:nth-child(5n) {
+  margin-right: 0;
+}
+
+.beach-info-list ul {
+  padding: 0;
+  margin: 0;
+}
+
+.beach-info-list li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.beach-info-list .info-title {
+  font-weight: 800;
+  margin-right: 15px;
+}
+
+.beach-info-list {
+  margin-bottom: 20px;
+}
+
+.beach-info-list > span {
+  color: #509edb;
+  font-weight: 500;
+}
+
+.review-restric {
+  position: relative;
+}
+
+span.review-restric img {
+  height: 22px;
+  width: 22px;
+}
+
+.review-restric::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 26px;
+  background: #c80000;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 11px;
+  left: -1px;
+  z-index: 1;
+}
+
+/*-----------privacy&policy--------*/
+.privacy-policy {
+  line-height: 1.6;
+}
+
+.privacy-policy .page-heading {
+  text-align: center;
+  padding-left: 0;
+}
+
+.privacy-desc {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.privacy-desc ul li {
+  font-size: 16px;
+  color: #333366;
+  padding-bottom: 5px;
+}
+
+span.arrow img {
+  width: 20px;
+  padding-right: 5px;
+}
+
+/*-------16/11---------*/
+.privacy-two-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.priv-sidebar-left a {
+  display: block;
+}
+
+.priv-right {
+  width: 68%;
+  margin-left: 25px;
+}
+
+.priv-right .page-heading {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.privacy-policy a {
+  text-decoration: underline;
+}
+
+.privacy-two-sec li {
+  list-style: disc;
+}
+
+.priv-sidebar-left a {
+  text-decoration: none !important;
+  margin-bottom: 10px;
+}
+
+.thank-mess {
+  margin-bottom: 50px;
+}
+
+.priv-sidebar-left {
+  width: 28%;
+  overflow: auto;
+  height: 100%;
+  margin-right: 25px;
+}
+
+.priv-sidebar-left li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.priv-sidebar-left .field-border {
+  padding: 25px 25px;
+  margin-bottom: 20px;
+}
+
+.priv-sidebar-left li:last-child a {
+  margin-bottom: 0;
+}
+
+.priv-right ul {
+  padding-left: 17px;
+}
+
+.priv-sidebar-left ul li a {
+  font-weight: 400;
+}
+
+/******edit_profile*********media-query*********/
+@media only screen and (max-width: 1699px) {
+  .uploaded-img img {
+    width: 60px;
+    height: 60px;
+  }
+  .radio .svg-icon img {
+    height: 50px;
+  }
+  .check-multiple.radio {
+    padding: 15px 30px;
+  }
+  .about-img img {
+    height: 60vh;
+  }
+  .about-page {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .about-descrip {
+    width: 36%;
+  }
+  .contact-frm .submit-btn {
+    width: 110px;
+  }
+  .contact-frm {
+    padding: 40px 80px 40px;
+  }
+  .write-review .about-para {
+    margin: 40px 0;
+  }
+  .review-page {
+    margin-bottom: 0px;
+  }
+  .serch-page {
+    margin: 80px 0;
+  }
+  .serch-page-descri .page-heading .beach-name {
+    font-size: 20px;
+  }
+  .svg-icon img {
+    height: 25px;
+  }
+  span.read-mor {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .star-numb .numb {
+    font-size: 16px;
+  }
+  .serch-page-details {
+    margin: 15px 0 0 0;
+    padding-bottom: 15px;
+  }
+  .serch-page-descri .page-heading {
+    padding-bottom: 0;
+  }
+  .serch-beach {
+    margin-top: 10px;
+  }
+  .review-desc p {
+    font-size: 15px;
+  }
+  .review-items .rev-subtitle {
+    font-size: 15px;
+  }
+  .auth-name {
+    font-size: 15px;
+  }
+  .review-list-title {
+    font-size: 16px;
+  }
+  /*---13 Sept 2021---*/
+  .review-des-fiveimgs .fiveimgs {
+    width: 90px;
+    height: 90px;
+  }
+  .beach-gallery-two-ad {
+    margin-top: 25px;
+  }
+}
+
+/*----------------------*/
+@media only screen and (max-width: 1400px) {
+  .light-blue-border textarea {
+    height: 100px;
+  }
+  .write-review .about-para {
+    margin: 40px 0;
+  }
+  .serch-page-descri .page-heading .beach-name {
+    font-size: 18px;
+  }
+  .star-numb .numb {
+    font-size: 14px;
+  }
+  .serch-page-descri {
+    padding-right: 15px;
+  }
+  /*---13 Sept 2021---*/
+  .beach-gallery-two-ad {
+    margin-top: 20px;
+  }
+  .priv-right {
+    margin-left: 15px;
+  }
+  .priv-sidebar-left {
+    margin-right: 15px;
+  }
+  .priv-sidebar-left .field-border {
+    padding: 20px 15px;
+  }
+}
+
+/*****************************************/
+@media only screen and (max-width: 1300px) {
+  span.cam-icon {
+    bottom: 18px;
+    right: 91px;
+  }
+  .uploaded-img {
+    border-radius: 10px;
+  }
+  .uploaded-img img {
+    width: 60px;
+    height: 60px;
+  }
+  .activities-other {
+    margin-bottom: 6px;
+  }
+  .field-cover.other {
+    margin-bottom: 6px;
+  }
+  .pictures-upload-sec {
+    padding: 10px 0;
+  }
+  /*----------------*/
+  .about-page {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  input.input-field {
+    font-size: 15px;
+  }
+  .contact-frm {
+    padding: 40px 70px 40px;
+  }
+  span.upload-svg img {
+    width: 95px;
+    height: 62px;
+  }
+  .edit-profile-email {
+    margin: 25px 0;
+  }
+  .write-review .about-para {
+    margin: 25px 0;
+  }
+  .write-review-img {
+    height: 40vh;
+  }
+  .write-review-img img {
+    width: 100%;
+  }
+  .serch-page {
+    margin: 40px 0;
+  }
+  .src-review-list {
+    margin-top: 20px;
+  }
+}
+
+/*--------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  .about-para p {
+    font-size: 14px;
+  }
+  .about-descrip {
+    width: 40%;
+  }
+  /*---------------*/
+  input.input-field {
+    font-size: 14px;
+  }
+  .one-by-five .beach-gallery-items {
+    width: calc(20% - 8px);
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  .serch-page-descri .page-heading .beach-name {
+    font-size: 16px;
+  }
+  .star-numb .star-rated .material-icons {
+    font-size: 18px;
+  }
+  .review-desc p {
+    font-size: 13px;
+  }
+  .review-items .rev-subtitle {
+    font-size: 14px;
+  }
+  .auth-name {
+    font-size: 14px;
+  }
+  .beach-info-list .info-title {
+    font-size: 14px;
+  }
+  .beach-info-list > span {
+    font-size: 14px;
+  }
+  .svg-icon img {
+    height: 20px;
+  }
+  .serch-beach-img {
+    width: 90px;
+    height: 90px;
+  }
+  select.form-control.src-filter.ml-auto {
+    font-size: 14px;
+  }
+  .src-filter {
+    background-size: 14px;
+  }
+  span.read-mor {
+    font-size: 14px;
+  }
+  .count {
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+  }
+  .radio .svg-icon img {
+    height: 45px;
+  }
+  span.cam-icon {
+    bottom: 16px;
+    right: 110px;
+  }
+  .serch-page-img {
+    padding-left: 20px;
+  }
+  .beach-gallery-items {
+    width: calc(25% - 8px);
+    height: 10vw;
+    border-radius: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .review-restric::before {
+    height: 3px;
+    width: 23px;
+    top: 11px;
+    left: 0px;
+  }
+  /*---13 Sept 2021---*/
+  .review-des-fiveimgs .fiveimgs {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+  }
+  .priv-right {
+    margin-left: 10px;
+  }
+  .priv-sidebar-left {
+    margin-right: 10px;
+  }
+}
+
+/*--------------------------------------*/
+@media only screen and (max-width: 992px) {
+  .abt-two-div {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .about-img img {
+    border-radius: 20px;
+    height: auto;
+  }
+  .about-descrip {
+    width: 100%;
+    margin-left: unset;
+  }
+  .about-img {
+    width: 100%;
+    margin-left: unset;
+    margin-top: 30px;
+  }
+  .abt-two-div .about-descrip .page-heading {
+    text-align: center;
+  }
+  .contact-p-img img {
+    width: 100%;
+    float: none;
+  }
+  .contact-p-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contact-frm {
+    border-radius: 50px;
+  }
+  .edit-profile-email {
+    font-size: 14px;
+  }
+  .upload-profile input {
+    width: 70%;
+  }
+  .upload-profile {
+    width: 100%;
+  }
+  .write-review-form {
+    width: 100%;
+  }
+  span.cam-icon {
+    height: 30px;
+    width: 30px;
+    bottom: 16px;
+    right: 60px;
+  }
+  .cam-icon img {
+    width: 55% !important;
+  }
+  .write-review-img {
+    height: 100%;
+  }
+  .privacy-desc p {
+    font-size: 14px;
+  }
+  .serch-page-img {
+    padding-left: 15px;
+    margin-top: 30px;
+  }
+  .auth-info .date {
+    display: block;
+  }
+  .auth-profile {
+    margin-right: 10px;
+  }
+  .serch-page.view-review-pg .section-heading {
+    margin-bottom: 0;
+  }
+  .serch-page.view-review-pg .section-heading p {
+    margin-bottom: 10px;
+  }
+  /*---13 Sept 2021---*/
+  .review-des-fiveimgs .fiveimgs {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 7px;
+  }
+  .beach-gallery-two-ad {
+    margin-top: 15px;
+  }
+  .privacy-two-sec {
+    display: block;
+  }
+  .priv-sidebar-left {
+    margin-right: 0;
+    width: 100%;
+  }
+  .priv-right {
+    margin-left: 0;
+    width: 100%;
+  }
+  .priv-sidebar-left {
+    position: inherit;
+  }
+}
+
+/*--------------------------------------*/
+@media only screen and (max-width: 767px) {
+  .serch-page {
+    margin: 30px 0;
+  }
+  .src-review-list {
+    margin-top: 15px;
+    padding-top: 15px;
+  }
+  .serch-page-img {
+    padding-left: 15px;
+    margin-top: 15px;
+  }
+  .beach-gallery-items {
+    width: calc(25% - 12px);
+    height: 130px;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  .upload-profile input {
+    width: 100%;
+  }
+  .one-by-five .beach-gallery-items {
+    width: calc(20% - 8px);
+    height: 16.5vw;
+    margin-top: 10px;
+  }
+  .serch-beach-img {
+    width: 80px;
+    height: 80px;
+  }
+  .contact-frm {
+    padding: 40px;
+  }
+  span.cam-icon {
+    bottom: 10px;
+    right: 11px;
+  }
+  .about-page {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+  .page-heading {
+    padding-bottom: 20px;
+  }
+  /*---13 Sept 2021---*/
+  .review-des-fiveimgs .fiveimgs {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+  .beach-gallery-two-ad {
+    margin-top: 25px;
+  }
+}
+
+/*--------------------------------------*/
+@media only screen and (max-width: 500px) {
+  .pictures-upload-sec {
+    padding: 0;
+  }
+  .contact-frm {
+    border-radius: 30px;
+    padding: 20px;
+  }
+  .light-blue-border {
+    border: 2px solid #509edb;
+  }
+  span.cam-icon {
+    bottom: 13px;
+    right: 101px;
+  }
+  .upload-profile {
+    width: 100px;
+    margin: 0 auto;
+  }
+  span.cam-icon {
+    bottom: 15px;
+    right: 0px;
+  }
+  .activities-other {
+    width: 100%;
+  }
+  span.upload-svg img {
+    width: 85px;
+    height: 52px;
+  }
+  .check-multiple.radio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .field-cover.other {
+    width: 100%;
+  }
+  .src-filter {
+    padding: 10px;
+  }
+  .serch-beach {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .svg-icon img {
+    height: 18px;
+  }
+  .serch-beach-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .serch-beach-icons {
+    width: calc(100% - 60px);
+  }
+  .privacy-desc ul li {
+    font-size: 14px;
+  }
+  .write-review-img {
+    width: 100%;
+  }
+  .review-page .write-review {
+    width: 100%;
+    margin-bottom: 90px !important;
+  }
+  .review-page {
+    display: block;
+  }
+  .my-review-items .review-items {
+    padding: 10px;
+  }
+  .star-wid-loc.d-flex {
+    display: block !important;
+  }
+  .star-wid-loc .star-numb {
+    margin-left: 0 !important;
+  }
+  .review-items .serch-beach-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .serch-page-descri {
+    padding-right: 15px !important;
+  }
+  .beach-gallery-items {
+    width: calc(25% - 8px);
+    height: 80px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  .about-img {
+    margin-top: 0;
+  }
+  .auth-info .date {
+    display: block;
+  }
+  .auth-profile {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+  }
+  .auth-info {
+    margin-bottom: 8px;
+  }
+  .serch-page {
+    margin: 30px 0;
+  }
+  .edit-profile-email {
+    margin: 0 0 25px;
+  }
+  .ser-icons li {
+    width: 12%;
+  }
+  .count {
+    padding: 0 10px;
+  }
+  /*---13 Sept 2021---*/
+  .review-des-fiveimgs .fiveimgs {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .beach-gallery-two-ad {
+    margin-top: 15px;
+  }
+  .privacy-two-sec li {
+    padding-left: 0;
+  }
+  .priv-right ul {
+    padding-left: 30px;
+  }
+}
+/*# sourceMappingURL=custom.css.map */

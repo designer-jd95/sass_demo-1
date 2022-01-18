@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search Results</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</head>
+<body>
+	<header class="site-header">
+		<div class="header-inner d-flex">
+			<div class="site-logo col-6 col-lg-4 col-md-4 px-0"><a href="#"><img src="images/logo.png"></a></div>
+			<div class="header-search col-12 col-lg-4 col-md-4 px-0">
+				<div class="h-src-inr">
+					<input type="text" name="" placeholder="Where are you going?">
+					<button class="btn src-submit"><img src="images/search-icon.png"></button>
+				</div>
+			</div>
+			<div class="header-right col-6 col-lg-4 col-md-4 px-0">
+				<div class="nav-toggle-cover">
+					<div class="nav-toggle">
+	                    <div class="toggle">
+	                        <div class="one"></div>
+	                        <div class="two"></div>
+	                        <div class="three"></div>
+	                    </div>
+	                    <div class="nav-menu">
+	                    	<ul class="menu">
+	                    		<li><a href="#">Home</a></li>
+	                    		<li><a href="#">Top Rated</a></li>
+	                    		<li><a href="#">Latest Reviews </a></li>
+	                    	</ul>
+	                    </div>
+	                </div>
+					<div class="h-profile"><img src="images/user-profile.svg"></div>
+                </div>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="serch-page mt-4">
+		<div class="ad-container">
+			<div class="header-advt-banner">
+				<img src="images/ad-banner_1.png">
+			</div>
+			<div class="side-ad-banner">
+				<div class="more-page-inner row">
+					<div class="col-lg-6 col-12 serch-page-descri">
+						<div class="edit-profile-heading">
+							<div class="section-heading d-flex">
+								<p>Your Search Results</p>
+								<div class="dropdown show src-filter ml-auto">
+	  								<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Latest Review</a>
+
+								  <div class="dropdown-menu filtr-drop" aria-labelledby="dropdownMenuLink">
+								    <a class="dropdown-item" href="#">Best Review</a>
+								    <a class="dropdown-item" href="#">Lowest Review</a>
+								  </div>
+								</div>
+							</div>	
+						</div>
+							<div class="serch-page-details">
+								<div class="page-heading">
+									<h1 class="beach-name">Beach Name</h1> <span>Location, Country</span> 
+								</div>
+								<div class="star-numb">
+									<div class="star-rated">
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons">star_border</span>
+										<span class="material-icons">star_border</span>
+									</div>
+									<span class="numb">(53)</span>
+								</div>
+								<div class="serch-beach">
+									<div class="serch-beach-img">
+										<img src="images/serch-p-1.jpg">
+									</div>
+									<div class="serch-beach-icons">
+										<ul class="ser-icons">
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+										</ul>
+										<span class="read-mor"><a href="#">read more</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="serch-page-details">
+								<div class="page-heading">
+									<h1 class="beach-name">Beach Name</h1> <span>Location, Country</span> 
+								</div>
+								<div class="star-numb">
+									<div class="star-rated">
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons">star_border</span>
+										<span class="material-icons">star_border</span>
+									</div>
+									<span class="numb">(53)</span>
+								</div>
+								<div class="serch-beach">
+									<div class="serch-beach-img">
+										<img src="images/serch-p-1.jpg">
+									</div>
+									<div class="serch-beach-icons">
+										<ul class="ser-icons">
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+										</ul>
+										<span class="read-mor"><a href="#">read more</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="serch-page-details">
+								<div class="page-heading">
+									<h1 class="beach-name">Beach Name</h1> <span>Location, Country</span> 
+								</div>
+								<div class="star-numb">
+									<div class="star-rated">
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons">star_border</span>
+										<span class="material-icons">star_border</span>
+									</div>
+									<span class="numb">(53)</span>
+								</div>
+								<div class="serch-beach">
+									<div class="serch-beach-img">
+										<img src="images/serch-p-1.jpg">
+									</div>
+									<div class="serch-beach-icons">
+										<ul class="ser-icons">
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+										</ul>
+										<span class="read-mor"><a href="#">read more</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="serch-page-details">
+								<div class="page-heading">
+									<h1 class="beach-name">Beach Name</h1> <span>Location, Country</span> 
+								</div>
+								<div class="star-numb">
+									<div class="star-rated">
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons">star_border</span>
+										<span class="material-icons">star_border</span>
+									</div>
+									<span class="numb">(53)</span>
+								</div>
+								<div class="serch-beach">
+									<div class="serch-beach-img">
+										<img src="images/serch-p-1.jpg">
+									</div>
+									<div class="serch-beach-icons">
+										<ul class="ser-icons">
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+										</ul>
+										<span class="read-mor"><a href="#">read more</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="serch-page-details">
+								<div class="page-heading">
+									<h1 class="beach-name">Beach Name</h1> <span>Location, Country</span> 
+								</div>
+								<div class="star-numb">
+									<div class="star-rated">
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons">star_border</span>
+										<span class="material-icons">star_border</span>
+									</div>
+									<span class="numb">(53)</span>
+								</div>
+								<div class="serch-beach">
+									<div class="serch-beach-img">
+										<img src="images/serch-p-1.jpg">
+									</div>
+									<div class="serch-beach-icons">
+										<ul class="ser-icons">
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+										</ul>
+										<span class="read-mor"><a href="#">read more</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="serch-page-details">
+								<div class="page-heading">
+									<h1 class="beach-name">Beach Name</h1> <span>Location, Country</span> 
+								</div>
+								<div class="star-numb">
+									<div class="star-rated">
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons fill">star</span>
+										<span class="material-icons">star_border</span>
+										<span class="material-icons">star_border</span>
+									</div>
+									<span class="numb">(53)</span>
+								</div>
+								<div class="serch-beach">
+									<div class="serch-beach-img">
+										<img src="images/serch-p-1.jpg">
+									</div>
+									<div class="serch-beach-icons">
+										<ul class="ser-icons">
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/umbrellas.svg"></span> <span class="svg-icon icon-checked"><img src="images/umbrellas_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/toilets.svg"></span> <span class="svg-icon icon-checked"><img src="images/toilets_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/changing_room.svg"></span> <span class="svg-icon icon-checked"><img src="images/changing_room_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/first_aid_services.svg"></span> <span class="svg-icon icon-checked"><img src="images/first_aid_services_checked.svg"></span></label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-checkbox">
+													<label> <span class="svg-icon"><img src="images/recycling.svg"></span> <span class="svg-icon icon-checked"><img src="images/recycling_checked.svg"></span></label>
+												</div>
+											</li>
+										</ul>
+										<span class="read-mor"><a href="#">read more</a></span>
+									</div>
+								</div>
+							</div>
+						<a class="submit-btn" href="#">Show More</a>
+					</div>
+			
+					<div class="col-lg-6 col-12 serch-page-img">
+						<div class="location-map">
+							<img src="images/src-map.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="side-banner"><img src="images/side-ad-banner.jpg"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="footer-inner">
+			<div class="f-logo">
+				<a href="#"><img src="images/Logo-blue.png"></a>
+			</div>
+			<div class="f-social">
+				<a href="#" target="_blank"><img src="images/facebook.svg"></a>
+				<a href="#" target="_blank"><img src="images/instagram.svg"></a>
+				<a href="#" target="_blank"><img src="images/linkedin.svg"></a>
+			</div>
+			<div class="f-nav-menu">
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Cookies</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="f-copyright">© Globe Beaches. All rights reserved.</div>
+		</div>
+	</footer>
+</body>
+</html>

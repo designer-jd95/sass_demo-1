@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit Profile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</head>
+<body>
+	<header class="site-header">
+		<div class="header-inner d-flex">
+			<div class="site-logo col-6 col-lg-4 col-md-4 px-0"><a href="#"><img src="images/logo.png"></a></div>
+			<div class="header-search col-12 col-lg-4 col-md-4 px-0">
+				<div class="h-src-inr">
+					<input type="text" name="" placeholder="Where are you going?">
+					<button class="btn src-submit"><img src="images/search-icon.png"></button>
+				</div>
+			</div>
+			<div class="header-right col-6 col-lg-4 col-md-4 px-0">
+				<div class="nav-toggle-cover">
+					<div class="nav-toggle">
+	                    <div class="toggle">
+	                        <div class="one"></div>
+	                        <div class="two"></div>
+	                        <div class="three"></div>
+	                    </div>
+	                    <div class="nav-menu">
+	                    	<ul class="menu">
+	                    		<li><a href="#">Home</a></li>
+	                    		<li><a href="#">Top Rated</a></li>
+	                    		<li><a href="#">Latest Reviews </a></li>
+	                    	</ul>
+	                    </div>
+	                </div>
+					<div class="h-profile"><img src="images/user-profile.svg"></div>
+                </div>
+			</div>
+		</div>
+	</header>
+	<div class="edit-profile">
+		<div class="container d-flex">
+			<div class="container-left">
+				<div class="profile-left">
+					<div class="upload-profile">
+						<input id="photo_camera" type="file" name="photo_camera">
+						<label>
+							<img src="images/user-pofile-img.png">
+							<span class="cam-icon"><img src="images/camera-icon.svg"></span>
+						</label>
+					</div>
+					
+					
+				</div>
+			</div>
+			<div class="container-right">
+					<div class="review-options">
+						<ul>
+							<li><a href="#"><span class="material-icons">create</span> Edit Profile</a></li>
+							<li><a href="#"><span class="material-icons">star_border</span> Favorites</a></li>
+							<li><a href="#"><span class="material-icons">history</span> My Reviews</a></li>
+							<li><a href="#"><span class="material-icons">create</span> Write Review</a></li>
+							<li><a href="#"><span class="material-icons">logout</span> Logout</a></li>
+						</ul>
+					</div>
+
+				<div class="write-review-form">
+				<div class="edit-profile-heading">
+					<div class="section-heading">
+						<p>Edit Your Profile</p>
+					</div>	
+					<div class="edit-profile-email">
+						<p>Registered Email-Address:</p>
+						<span class="grey-color"><a href="mailto:max.masterfile@gmail.com">max.masterfile@gmail.com</a></span>
+					</div>
+				</div>
+				
+				<form action="">
+					<div class="field-cover">
+						<label class="field-label" for="fname">Edit your first name:</label>
+							<div class="field-border">
+				 				<input type="text" id="fname" class="input-field" name="fname" placeholder="Enter your first name">
+							</div>
+					</div>
+				 	<div class="field-cover">
+						<label class="field-label" for="lname">Edit your last name:</label>
+							<div class="field-border">
+				 				<input type="text" id="lname" class="input-field" name="lname" placeholder="Enter your last name">
+							</div>
+					</div>
+					<div class="field-cover">
+						<label class="field-label" for="uname">Edit your username:</label>
+							<div class="field-border">
+				 				<input type="text" id="uname" class="input-field" name="uname" placeholder="Enter your username">
+							</div>
+					</div>
+					<div class="field-cover">
+						<label class="field-label" for="pwd">Edit your password:</label>
+							<div class="field-border">
+				 				<input type="password" id="pwd" name="pwd" class="input-field" placeholder="**************">
+							</div>
+					</div>
+				 	<div class="field-cover">
+						<label class="field-label" for="pwd">Repeat your password:</label>
+							<div class="field-border">
+				 				<input type="password" id="pwd" name="pwd" class="input-field" placeholder="**************">
+							</div>
+					</div>
+				 
+	  				<a class="submit-btn mt-4" href="#">Save</a>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<footer>
+		<div class="footer-inner">
+			<div class="f-logo">
+				<a href="#"><img src="images/Logo-blue.png"></a>
+			</div>
+			<div class="f-social">
+				<a href="#" target="_blank"><img src="images/facebook.svg"></a>
+				<a href="#" target="_blank"><img src="images/instagram.svg"></a>
+				<a href="#" target="_blank"><img src="images/linkedin.svg"></a>
+			</div>
+			<div class="f-nav-menu">
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Cookies</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="f-copyright">© Globe Beaches. All rights reserved.</div>
+		</div>
+	</footer>
+</body>
+</html>
