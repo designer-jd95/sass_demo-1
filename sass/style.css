@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/*css*/
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  color: #ff0000;
+  color: #000;
 }
 
 input, select, textarea, button, a {
@@ -11,7 +12,7 @@ input, select, textarea, button, a {
 }
 
 a {
-  color: #ff0000;
+  color: #000;
 }
 
 a:hover {
@@ -68,12 +69,12 @@ input::placeholder, textarea::placeholder {
 }
 
 .h-src-inr input {
-  border: 1px solid #ff0000;
+  border: 1px solid #000;
   padding: 12px 60px 12px 20px;
   border-radius: 60px;
   width: 100%;
   font-size: 16px;
-  color: #ff0000;
+  color: #000;
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
@@ -112,7 +113,7 @@ input::placeholder, textarea::placeholder {
 .toggle div {
   width: 100%;
   height: 2px;
-  background: #ff0000;
+  background: #000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 2px;
@@ -231,14 +232,14 @@ input::placeholder, textarea::placeholder {
 
 .field-border {
   padding: 15px 35px;
-  border: 1px solid #ff0000;
+  border: 1px solid #000;
   width: 100%;
   border-radius: 40px;
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   font-size: 16px;
   font-weight: 500;
-  color: #ff0000;
+  color: #000;
 }
 
 .field-border > .material-icons {
@@ -441,7 +442,7 @@ textarea.field-border {
   font-weight: 500;
   width: 470px;
   line-height: 1.3;
-  color: #ff0000;
+  color: #000;
   margin-bottom: 0;
 }
 
@@ -470,7 +471,7 @@ textarea.field-border {
 }
 
 .submit-btn:hover {
-  background-color: #ff0000;
+  background-color: #000;
 }
 
 .more-descr {
@@ -481,7 +482,7 @@ textarea.field-border {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 20px;
-  border-bottom: 2px solid #ff0000;
+  border-bottom: 2px solid #000;
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
@@ -505,7 +506,7 @@ textarea.field-border {
 
 .save-review p {
   font-size: 16px;
-  color: #ff0000;
+  color: #000;
   font-weight: 500;
 }
 
@@ -528,7 +529,7 @@ textarea.field-border {
   content: '';
   -webkit-appearance: none;
   background-color: transparent;
-  border: 2px solid #ff0000;
+  border: 2px solid #000;
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   padding: 15px;
@@ -560,7 +561,7 @@ textarea.field-border {
   left: 14px;
   width: 8px;
   height: 17px;
-  border: solid #ff0000;
+  border: solid #000;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -573,7 +574,7 @@ textarea.field-border {
 
 /*-------Footer-------*/
 .footer-inner {
-  border-top: 3px solid #ff0000;
+  border-top: 3px solid #000;
   padding: 40px 0;
   text-align: center;
 }
@@ -614,7 +615,7 @@ textarea.field-border {
 .f-nav-menu ul li {
   margin-right: 25px;
   padding-right: 25px;
-  border-right: 2px solid #ff0000;
+  border-right: 2px solid #000;
   line-height: 1;
 }
 
@@ -842,7 +843,7 @@ textarea.field-border {
 }
 
 .ac-cta-link a:hover {
-  color: #ff0000;
+  color: #000;
 }
 
 .reg-check-box {
@@ -882,7 +883,7 @@ textarea.field-border {
   top: 4px;
   height: 15px;
   width: 15px;
-  background: #ff0000;
+  background: #000;
   border-radius: 100%;
   opacity: 0;
   -webkit-transition: 0.35s;
@@ -923,7 +924,7 @@ textarea.field-border {
 }
 
 .forgot-pass:hover {
-  color: #ff0000;
+  color: #000;
 }
 
 .nav-menu {
@@ -965,8 +966,8 @@ textarea.field-border {
   -webkit-box-shadow: inherit !important;
           box-shadow: inherit !important;
   border-radius: 30px;
-  border: 1px solid #ff0000 !important;
-  color: #ff0000 !important;
+  border: 1px solid #000 !important;
+  color: #000 !important;
   font-weight: 500;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1000,7 +1001,7 @@ textarea.field-border {
   line-height: 1;
   margin: 10px 0;
   display: inline-block;
-  color: #ff0000 !important;
+  color: #000 !important;
 }
 
 .filtr-drop a:hover {
@@ -1016,12 +1017,12 @@ textarea.field-border {
   display: block;
   padding: 10px 0 10px 20px;
   text-align: left;
-  color: #ff0000 !important;
+  color: #000 !important;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   background-color: transparent;
-  color: #ff0000;
+  color: #000;
 }
 
 .header-advt-banner img {
@@ -1119,7 +1120,7 @@ textarea.field-border {
   width: 600px;
   margin: 0 auto;
   padding: 50px 50px 60px;
-  border: 1px solid #ff0000;
+  border: 1px solid #000;
   border-radius: 40px;
 }
 
